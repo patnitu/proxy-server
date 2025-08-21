@@ -12,7 +12,7 @@ app.use(cors({
 }));
 
 // 🔹 Change this to your real backend URL
-const BACKEND_URL = "https://yykb-evershop-app-backend-production.up.railway.app";
+const BACKEND_URL = "https://yykb-evershop-app-backend-production.up.railway.app/api/graphql";
 
 // Proxy all /api requests to backend
 app.use(
