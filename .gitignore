@@ -1,0 +1,71 @@
+# --- Node / package managers ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+# Keep lockfiles committed (remove these comments if you really want to ignore them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# --- Environment / secrets ---
+.env
+.env.local
+.env.*.local
+
+# --- Build outputs ---
+dist/
+build/
+.cache/
+.cache-loader/
+.parcel-cache/
+.turbo/
+.eslintcache
+*.tsbuildinfo
+
+# --- Logs & pids ---
+logs/
+*.log
+*.pid
+*.pid.lock
+
+# --- Coverage / test outputs ---
+coverage/
+.nyc_output/
+
+# --- OS / Editor junk ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# --- Static/media uploads (runtime-generated) ---
+public/uploads/
+public/media/
+public/images/uploads/
+uploads/
+media/
+storage/
+
+# --- Temporary files ---
+tmp/
+temp/
+*.tmp
+
+# --- Database dumps / backups ---
+*.sql
+*.dump
+*.backup
+
+# --- Docker local files (optional) ---
+# docker-data/
+# .docker/
+
+# --- EverShop-specific (add if you see these in your project) ---
+# .evershop/
+# public/static/cache/
